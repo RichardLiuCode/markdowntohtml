@@ -13,11 +13,34 @@
 </head>
 
 <body>
-    <div class="Container1">
-        <textarea id="input"></textarea>
-        <textarea readonly id="result"></textarea>
+    <h1 style="font-family:arial;font-size:35px;margin-bottom:6px;margin-top:10px;">Markdown to HTML</h1>
+    <div classs="container3">
+        <div class="Container1">
+            <div class="container2">
+                <textarea id="input" placeholder="Enter markdown text"></textarea>
+            </div>
+            <div class="container2">
+                <textarea readonly id="result" placeholder="HTML Result"></textarea>
+                <div class="container3" id="displayBottomBar">
+                    <button id="copyResultHTML">Copy</button>
+                    <button id="download">Download</button>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <button id="convert">Convert</button>
+    <br>
+    <div class="Container1" id="cfawergfv">
+        <span style="font-family:arial;">Upload file:</span>
+        <div class="fileInputContainer">
+            <input id="fileInput" accept=".md" type="file">
+        </div>
+        <button id="upload">Upload</button>
+    </div>
+    <br>
+    <div class="Container1">
+        <button id="convert">Convert</button>
+    </div>
 </body>
 
 </html>
