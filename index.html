@@ -3,11 +3,21 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"
+        integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.15.4/beautify-html.min.js"
+        integrity="sha512-ZIu+FgQxrG6A7u+BQMNz0g+pTJGAqB+oumn2rZegvyPYJG4aegC6srYdRvksOaDfqOMM1/vuUJZWMIiMNJw2mw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script defer src="script.js"></script>
 </head>
 
 <body>
-
+    <div class="Container1">
+        <textarea id="input"></textarea>
+        <textarea readonly id="result"></textarea>
+    </div>
+    <button id="convert">Convert</button>
 </body>
 
 </html>

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#input,
+#result {
+    resize: none;
+    width: 495px;
+    height: 700px;
+    padding: 5px;
+    font-family: arial;
+    border-style: solid;
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: gray;
+}
+
+#input:focus,
+#result:focus {
+    outline: none;
+}
+
+.Container1 {
+    margin: 0 auto;
+    background-color: blue;
+    width: 1050px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
